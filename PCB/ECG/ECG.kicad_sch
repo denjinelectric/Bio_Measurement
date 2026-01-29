@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8c965ce8-19bd-4670-b893-28937b6afe76")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 39.37 15.24)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4cbd7072-785d-4f8c-858b-f1233194ba3b")
+		(property "Sheetname" "PWR"
+			(at 39.37 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR.kicad_sch"
+			(at 39.37 19.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECG"
+				(path "/8c965ce8-19bd-4670-b893-28937b6afe76"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 15.24)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d525139-c2dc-4532-81da-f7c0b0fb96ba")
+		(property "Sheetname" "Digital"
+			(at 60.96 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Digital.kicad_sch"
+			(at 60.96 19.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECG"
+				(path "/8c965ce8-19bd-4670-b893-28937b6afe76"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 15.24)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac25ff48-24c4-4349-9bf9-82d35879cdf1")
+		(property "Sheetname" "Analog"
+			(at 13.97 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog.kicad_sch"
+			(at 13.97 19.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECG"
+				(path "/8c965ce8-19bd-4670-b893-28937b6afe76"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
